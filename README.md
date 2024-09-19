@@ -9,10 +9,11 @@ pip install -r requirements.txt
 ## Experiments
 We provide 2 scripts to reproduce experiments from our paper.
 run_calibration.sh will train a calibration head (with the settings from our method in the paper) with the specified base model.
-run_evaluation.sh will download and run evaluation for the specified model (either from the provided checkpoints on the hub or for your own weights).
-
 ```
 bash run_calibration.sh
+```
+run_evaluation.sh will download and run evaluation for the specified model (either from the provided checkpoints on the hub or for your own weights).
+```
 bash run_evaluation.sh
 ```
 
