@@ -10,6 +10,12 @@ pip install -r requirements.txt
 We provide 2 scripts to reproduce experiments from our paper.
 run_calibration.sh will train a calibration head (with the settings from our method in the paper) with the specified base model.
 run_evaluation.sh will download and run evaluation for the specified model (either from the provided checkpoints on the hub or for your own weights).
+
+```
+bash run_calibration.sh
+bash run_evaluation.sh
+```
+
 The evaluation for truthful_qa will require an openai API key (for gpt3.5 evaluation).
 While the code has been written to work with any language model from huggingface hub, we have only tested it with the three models used in our paper.
 Additionally, the calibration code supports both DDP and FSDP, however we strongly recommend using the DDP config (already set by default) as
