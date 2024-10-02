@@ -32,3 +32,16 @@ meaning any model you evaluate must fit on a single GPU.
 
 ## Acknowledgement
 This repo is based on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+## Citation
+If you use this work please cite the following bibtex
+```
+@inproceedings{
+xie2024calibrating,
+title={Calibrating Language Models With Adaptive Temperature Scaling},
+author={Johnathan Xie and Annie S Chen and Yoonho Lee and Eric Mitchell and Chelsea Finn},
+booktitle={ICLR 2024 Workshop on Secure and Trustworthy Large Language Models},
+year={2024},
+url={https://openreview.net/forum?id=BgfGqNpoMi}
+}
+```
