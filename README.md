@@ -1,5 +1,5 @@
 # Adaptive Temperature Scaling
-Code for the paper ["Calibrating Language Models with Adaptive Temperature Scaling"]()
+Code for the paper ["Calibrating Language Models with Adaptive Temperature Scaling"](https://arxiv.org/abs/2409.19817)
 
 ## Installation
 ```
