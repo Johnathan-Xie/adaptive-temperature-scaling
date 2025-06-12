@@ -3,7 +3,6 @@ slurm*
 wandb/
 src/data/
 evaluation_results/
-evaluation/
 SelfAware/
 
 # Byte-compiled / optimized / DLL files

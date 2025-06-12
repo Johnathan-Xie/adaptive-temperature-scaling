@@ -1,0 +1,12 @@
+{
+    "trivia_qa": {
+      "name": "general trivia",
+      "dataset_path": "jxie/trivia_qa",
+      "correctness_fn": "frq_em"
+    },
+    "truthful_qa": {
+      "name": "general knowledge",
+      "dataset_path": "jxie/truthful_qa",
+      "correctness_fn": "frq_lm_no_label_gpt35"
+    }
+} 
